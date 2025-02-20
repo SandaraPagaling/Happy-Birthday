@@ -1,5 +1,5 @@
 body {
-  background-color: #f0f8ff; /* Alice blue background */
+  background-color: #e0f7fa; /* Light cyan background */
   overflow: hidden; /* Prevent scrolling */
 }
 
@@ -9,31 +9,31 @@ body {
   margin-bottom: 20px;
   font-family: 'Arial', sans-serif;
   font-size: 20px;
-  color: #2e8b57; /* Sea green text */
-  background-color: #e0ffff; /* Light cyan background */
+  color: #01579b; /* Dark blue text */
+  background-color: #b3e5fc; /* Light blue background */
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #20b2aa; /* Light sea green border */
+  border: 2px solid #0288d1; /* Medium blue border */
 }
 
 .candle-count-display span {
   font-weight: bold;
-  color: #008080; /* Teal */
+  color: #0277bd; /* Darker blue */
 }
 
 .instruction {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #2e8b57; /* Sea green for visibility */
+  color: #01579b; /* Dark blue for visibility */
   margin-top: 10px; /* Adjusted margin to give more space */
   margin-bottom: 10px;
   font-family: 'Arial', sans-serif;
-  background-color: #e0ffff; /* Light cyan background */
+  background-color: #b3e5fc; /* Light blue background */
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -63,9 +63,9 @@ body {
   position: absolute;
   bottom: -10px;
   left: -10px;
-  background-color: #f0f8ff; /* Alice blue */
+  background-color: #e0f7fa; /* Light cyan */
   border-radius: 50%;
-  box-shadow: 0 2px 0 #e0ffff, 0 4px 0 #e0ffff, 0 5px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 0 #b3e5fc, 0 4px 0 #b3e5fc, 0 5px 40px rgba(0, 0, 0, 0.5);
 }
 
 .cake > * {
@@ -78,8 +78,8 @@ body {
   width: 250px;
   height: 100px;
   border-radius: 50%;
-  background-color: #ffb6c1; /* Light pink */
-  box-shadow: 0 2px 0px #ff69b4, 0 4px 0px #ff1493, 0 6px 0px #ff1493, 0 8px 0px #ff1493, 0 10px 0px #ff1493, 0 12px 0px #ff1493, 0 14px 0px #ff1493, 0 16px 0px #ff1493, 0 18px 0px #ff1493, 0 20px 0px #ff1493, 0 22px 0px #ff1493, 0 24px 0px #ff1493, 0 26px 0px #ff1493, 0 28px 0px #ff1493, 0 30px 0px #ff1493;
+  background-color: #0288d1; /* Medium blue */
+  box-shadow: 0 2px 0px #0277bd, 0 4px 0px #01579b, 0 6px 0px #01579b, 0 8px 0px #01579b, 0 10px 0px #01579b, 0 12px 0px #01579b, 0 14px 0px #01579b, 0 16px 0px #01579b, 0 18px 0px #01579b, 0 20px 0px #01579b, 0 22px 0px #01579b, 0 24px 0px #01579b, 0 26px 0px #01579b, 0 28px 0px #01579b, 0 30px 0px #01579b;
 }
 
 .layer-top {
@@ -97,7 +97,7 @@ body {
 .icing {
   top: 2px;
   left: 5px;
-  background-color: #fff0f5; /* Lavender blush */
+  background-color: #e1f5fe; /* Very light blue */
   width: 240px;
   height: 90px;
   border-radius: 50%;
@@ -110,8 +110,8 @@ body {
   right: 5px;
   bottom: 6px;
   left: 5px;
-  background-color: #ffe4e1; /* Misty rose */
-  box-shadow: 0 0 4px #fff0f5, 0 0 4px #fff0f5, 0 0 4px #fff0f5;
+  background-color: #e3f2fd; /* Very light blue */
+  box-shadow: 0 0 4px #e1f5fe, 0 0 4px #e1f5fe, 0 0 4px #e1f5fe;
   border-radius: 50%;
   z-index: 1;
 }
@@ -122,7 +122,7 @@ body {
   height: 60px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: #fff0f5; /* Lavender blush */
+  background-color: #e1f5fe; /* Very light blue */
 }
 
 .drip1 {
@@ -148,7 +148,7 @@ body {
 }
 
 .candle {
-  background-color: #ff69b4; /* Hot pink */
+  background-color: #0277bd; /* Darker blue */
   width: 12px;
   height: 35px;
   border-radius: 6px/3px;
@@ -166,7 +166,7 @@ body {
   width: 12px;
   height: 6px;
   border-radius: 50%;
-  background-color: #ff1493; /* Deep pink */
+  background-color: #01579b; /* Dark blue */
 }
 
 .candle.out .flame {
@@ -220,7 +220,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: bold;
-  color: #2e8b57; /* Sea green */
+  color: #01579b; /* Dark blue */
   font-family: 'Arial', sans-serif;
   z-index: 101; /* Ensure it appears above other elements */
 }
