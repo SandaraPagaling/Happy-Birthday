@@ -1,5 +1,5 @@
 body {
-  background-color: #e0f7fa; /* Light blue background */
+  background-color: #f5f5f5; /* Light grey background */
   overflow: hidden; /* Prevent scrolling */
 }
 
@@ -9,31 +9,31 @@ body {
   margin-bottom: 20px;
   font-family: 'Arial', sans-serif;
   font-size: 20px;
-  color: #01579b; /* Dark blue text */
-  background-color: #b3e5fc; /* Light blue background */
+  color: #3e2723; /* Dark brown text */
+  background-color: #d7ccc8; /* Light brown background */
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #0288d1; /* Medium blue border */
+  border: 2px solid #5d4037; /* Medium brown border */
 }
 
 .candle-count-display span {
   font-weight: bold;
-  color: #0277bd; /* Darker blue */
+  color: #4e342e; /* Darker brown */
 }
 
 .instruction {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #01579b; /* Dark blue for visibility */
+  color: #3e2723; /* Dark brown for visibility */
   margin-top: 10px; /* Adjusted margin to give more space */
   margin-bottom: 10px;
   font-family: 'Arial', sans-serif;
-  background-color: #b3e5fc; /* Light blue background */
+  background-color: #d7ccc8; /* Light brown background */
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -63,9 +63,9 @@ body {
   position: absolute;
   bottom: -10px;
   left: -10px;
-  background-color: #e0f7fa; /* Light blue */
+  background-color: #f5f5f5; /* Light grey */
   border-radius: 50%;
-  box-shadow: 0 2px 0 #b3e5fc, 0 4px 0 #b3e5fc, 0 5px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 0 #d7ccc8, 0 4px 0 #d7ccc8, 0 5px 40px rgba(0, 0, 0, 0.5);
 }
 
 .cake > * {
@@ -78,8 +78,8 @@ body {
   width: 250px;
   height: 100px;
   border-radius: 50%;
-  background-color: #0288d1; /* Medium blue */
-  box-shadow: 0 2px 0px #0277bd, 0 4px 0px #01579b, 0 6px 0px #01579b, 0 8px 0px #01579b, 0 10px 0px #01579b, 0 12px 0px #01579b, 0 14px 0px #01579b, 0 16px 0px #01579b, 0 18px 0px #01579b, 0 20px 0px #01579b, 0 22px 0px #01579b, 0 24px 0px #01579b, 0 26px 0px #01579b, 0 28px 0px #01579b, 0 30px 0px #01579b;
+  background-color: #5d4037; /* Medium brown */
+  box-shadow: 0 2px 0px #4e342e, 0 4px 0px #3e2723, 0 6px 0px #3e2723, 0 8px 0px #3e2723, 0 10px 0px #3e2723, 0 12px 0px #3e2723, 0 14px 0px #3e2723, 0 16px 0px #3e2723, 0 18px 0px #3e2723, 0 20px 0px #3e2723, 0 22px 0px #3e2723, 0 24px 0px #3e2723, 0 26px 0px #3e2723, 0 28px 0px #3e2723, 0 30px 0px #3e2723;
 }
 
 .layer-top {
@@ -97,7 +97,7 @@ body {
 .icing {
   top: 2px;
   left: 5px;
-  background-color: #e1f5fe; /* Very light blue */
+  background-color: #efebe9; /* Very light brown */
   width: 240px;
   height: 90px;
   border-radius: 50%;
@@ -110,8 +110,8 @@ body {
   right: 5px;
   bottom: 6px;
   left: 5px;
-  background-color: #e3f2fd; /* Very light blue */
-  box-shadow: 0 0 4px #e1f5fe, 0 0 4px #e1f5fe, 0 0 4px #e1f5fe;
+  background-color: #f5f5f5; /* Very light grey */
+  box-shadow: 0 0 4px #efebe9, 0 0 4px #efebe9, 0 0 4px #efebe9;
   border-radius: 50%;
   z-index: 1;
 }
@@ -122,7 +122,7 @@ body {
   height: 60px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: #e1f5fe; /* Very light blue */
+  background-color: #efebe9; /* Very light brown */
 }
 
 .drip1 {
@@ -148,7 +148,7 @@ body {
 }
 
 .candle {
-  background-color: #0277bd; /* Darker blue */
+  background-color: #4e342e; /* Darker brown */
   width: 12px;
   height: 35px;
   border-radius: 6px/3px;
@@ -166,7 +166,7 @@ body {
   width: 12px;
   height: 6px;
   border-radius: 50%;
-  background-color: #01579b; /* Dark blue */
+  background-color: #3e2723; /* Dark brown */
 }
 
 .candle.out .flame {
@@ -220,7 +220,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: bold;
-  color: #01579b; /* Dark blue */
+  color: #3e2723; /* Dark brown */
   font-family: 'Arial', sans-serif;
   z-index: 101; /* Ensure it appears above other elements */
 }
@@ -279,4 +279,33 @@ body {
 
 .confetti-piece:nth-child(6n) {
   background-color: #9c27b0; /* Purple */
+}
+
+.owl, .cat {
+  display: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  animation: bounce 5s linear infinite;
+}
+
+.owl {
+  background-image: url('https://i.pinimg.com/originals/7d/d3/45/7dd34549d6ee25e290f85817ccfa6d6f.gif'); /* Owl GIF URL */
+}
+
+.cat {
+  background-image: url('https://i.pinimg.com/originals/a4/81/c5/a481c55a27c4968831ff572ef7a504ea.gif'); /* Cat GIF URL */
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
