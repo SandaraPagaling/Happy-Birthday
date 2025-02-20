@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
       updateCandleCount();
       if (candles.filter(candle => !candle.classList.contains("out")).length === 0) {
         showHappyBirthday();
+        showOwlsAndCats();
       }
     }
   }
@@ -73,6 +74,26 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector('.happy-birthday').classList.add('show');
     document.querySelector('.confetti').classList.add('show');
     addConfetti();
+  }
+
+  function showOwlsAndCats() {
+    const owlContainer = document.querySelector('.owl-container');
+    const catContainer = document.querySelector('.cat-container');
+    for (let i = 0; i < 10; i++) { // Adjust the number of owls and cats as needed
+      const owl = document.createElement('div');
+      owl.className = 'owl';
+      owl.style.top = `${Math.random() * 100}vh`;
+      owl.style.left = `${Math.random() * 100}vw`;
+      owlContainer.appendChild(owl);
+      owl.style.display = 'block';
+
+      const cat = document.createElement('div');
+      cat.className = 'cat';
+      cat.style.top = `${Math.random() * 100}vh`;
+      cat.style.left = `${Math.random() * 100}vw`;
+      catContainer.appendChild(cat);
+      cat.style.display = 'block';
+    }
   }
 
   function addConfetti() {
