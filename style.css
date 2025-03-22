@@ -9,31 +9,31 @@ body {
   margin-bottom: 20px;
   font-family: 'Arial', sans-serif;
   font-size: 20px;
-  color: #01579b; /* Dark blue text */
-  background-color: #b3e5fc; /* Light blue background */
+  color: #9c27b0; /* Purple text */
+  background-color: #ffffff; /* White background */
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #0288d1; /* Medium blue border */
+  border: 2px solid #9c27b0; /* Purple border */
 }
 
 .candle-count-display span {
   font-weight: bold;
-  color: #0277bd; /* Darker blue */
+  color: #d50000; /* Red */
 }
 
 .instruction {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #01579b; /* Dark blue for visibility */
+  color: #9c27b0; /* Purple for visibility */
   margin-top: 10px; /* Adjusted margin to give more space */
   margin-bottom: 10px;
   font-family: 'Arial', sans-serif;
-  background-color: #b3e5fc; /* Light blue background */
+  background-color: #ffffff; /* White background */
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -78,8 +78,8 @@ body {
   width: 250px;
   height: 100px;
   border-radius: 50%;
-  background-color: #0288d1; /* Medium blue */
-  box-shadow: 0 2px 0px #0277bd, 0 4px 0px #01579b, 0 6px 0px #01579b, 0 8px 0px #01579b, 0 10px 0px #01579b, 0 12px 0px #01579b, 0 14px 0px #01579b, 0 16px 0px #01579b, 0 18px 0px #01579b, 0 20px 0px #01579b, 0 22px 0px #01579b, 0 24px 0px #01579b, 0 26px 0px #01579b, 0 28px 0px #01579b, 0 30px 0px #01579b;
+  background-color: #9c27b0; /* Purple */
+  box-shadow: 0 2px 0px #7b1fa2, 0 4px 0px #6a1b9a, 0 6px 0px #6a1b9a, 0 8px 0px #6a1b9a, 0 10px 0px #6a1b9a, 0 12px 0px #6a1b9a, 0 14px 0px #6a1b9a, 0 16px 0px #6a1b9a, 0 18px 0px #6a1b9a, 0 20px 0px #6a1b9a, 0 22px 0px #6a1b9a, 0 24px 0px #6a1b9a, 0 26px 0px #6a1b9a, 0 28px 0px #6a1b9a, 0 30px 0px #6a1b9a;
 }
 
 .layer-top {
@@ -97,7 +97,7 @@ body {
 .icing {
   top: 2px;
   left: 5px;
-  background-color: #e1f5fe; /* Very light blue */
+  background-color: #ffffff; /* White */
   width: 240px;
   height: 90px;
   border-radius: 50%;
@@ -110,8 +110,8 @@ body {
   right: 5px;
   bottom: 6px;
   left: 5px;
-  background-color: #e3f2fd; /* Very light blue */
-  box-shadow: 0 0 4px #e1f5fe, 0 0 4px #e1f5fe, 0 0 4px #e1f5fe;
+  background-color: #f5f5f5; /* Light grey */
+  box-shadow: 0 0 4px #ffffff, 0 0 4px #ffffff, 0 0 4px #ffffff;
   border-radius: 50%;
   z-index: 1;
 }
@@ -122,7 +122,7 @@ body {
   height: 60px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: #e1f5fe; /* Very light blue */
+  background-color: #ffffff; /* White */
 }
 
 .drip1 {
@@ -148,7 +148,7 @@ body {
 }
 
 .candle {
-  background-color: #0277bd; /* Darker blue */
+  background-color: #000000; /* Black */
   width: 12px;
   height: 35px;
   border-radius: 6px/3px;
@@ -166,7 +166,7 @@ body {
   width: 12px;
   height: 6px;
   border-radius: 50%;
-  background-color: #01579b; /* Dark blue */
+  background-color: #424242; /* Dark grey */
 }
 
 .candle.out .flame {
@@ -220,7 +220,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: bold;
-  color: #01579b; /* Dark blue */
+  color: #d50000; /* Red */
   font-family: 'Arial', sans-serif;
   z-index: 101; /* Ensure it appears above other elements */
 }
